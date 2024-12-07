@@ -1,4 +1,9 @@
-{
+{    
+    "bdi": {
+        "prefix": "t",
+        "body": "<$1>",
+        "description": "html tag"
+    },
     "Constructor": {
         "prefix": "ctor",
         "body": [
