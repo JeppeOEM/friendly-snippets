@@ -1,8 +1,23 @@
 {    
-    "bdi": {
+    "tag": {
         "prefix": "t",
         "body": "<$1>",
         "description": "html tag"
+    },    
+    "tag end": {
+        "prefix": "te",
+        "body": "</$1>",
+        "description": "ending html tag"
+    },
+        "tag single": {
+        "prefix": "tr",
+        "body": "<$1/ >",
+        "description": "single tag"
+    },
+        "2 tags": {
+        "prefix": "tt",
+        "body": "<$1>$0</$1>",
+        "description": "2 html tags "
     },
     "Constructor": {
         "prefix": "ctor",
